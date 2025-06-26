@@ -1,7 +1,7 @@
 #root {
     display: block;
 }
-.main1 {
+/*.main1 {
     background-color: #007bff;
     color: white;
     padding: 15px 20px;
@@ -10,14 +10,7 @@
     align-items: center;
     top: 0;
 }
-#demo2 {
-    font-size: 30px;
-    border: 2px solid black;
-}
-#a2 {
-    text-align: left;
-    align-items: center;
-}
+
 .demo {
     text-align: right;
     justify-content: space-between;
@@ -27,6 +20,7 @@
     padding: 7px ; 
     width: 100%;
 }
+
 #demo1 {
     justify-content: space-between;
 }
@@ -34,14 +28,14 @@
 #demo2 {
     color: white;
     text-align: right;
-}
+    font-size: 30px;
+}*/
 #add {
     background-color: #28a745;
     color: #fff;
-    padding: 15px 25px;
+    padding: 10px 25px;
     border-radius: 5px;
     font-weight: 700;
-
 }
 #p1 {
     font-size: 20px;
@@ -92,6 +86,7 @@
     padding-left: 130px;
     padding-right: 130px;
     padding-bottom: 25px;
+    cursor: pointer;
 }
 #main-layout {
     overflow: auto;
@@ -133,6 +128,7 @@ ul {
 
 .heading {
     color: #007bff;
+    font-size: 2.5em;
 }
 table {
     width: 100%;
@@ -150,6 +146,7 @@ tr:nth-child(odd) {
 }
 #video {
     width: 100%;
+    display: flex;
 }
 #a1 {
     background-color: #28a745;
@@ -158,4 +155,157 @@ tr:nth-child(odd) {
     border-radius: 5px;
     font-weight: 700;
 
+}
+.main2 {
+    background-color: #52d2d2;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 25px;
+}
+#main-layout1 {
+    display: inline-block;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 8px;
+}
+.vck {
+    text-align: center;
+    padding: 10px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #f0f0f0;
+}
+.v1 {
+    overflow: hidden;
+    background-color: #000;
+    border-radius: 8px;
+}
+#main-layout ul {
+    margin-left: 10px;
+   
+}
+#img1 img:hover{
+    transform: scale(1.03);
+}
+#main-layout li {
+     margin-bottom: 8px;
+}
+#p2 {
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+#main-layout h2 {
+    font-size: 1.8em;
+    color: #343034;
+}
+
+
+@keyframes fadeInUptoBottom {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+    /* Start 20px below its final position */
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    /* End at its original position */
+  }
+}
+
+/* Apply animation to elements with this class */
+.animate-fade-in-up {
+  animation: fadeInUptoBottom 1s ease-out forwards;
+  /* 1s duration, smooth ease-out, stays at end state */
+  /* You might want to add animation-delay if multiple elements animate in sequence */
+}
+
+
+
+/* --- Basic Responsive Styles --- */
+@media (max-width: 768px) {
+  .page-container {
+    margin: 15px auto;
+    /* Slightly less margin on smaller screens */
+    padding: 15px;
+    /* Slightly less padding */
+  }
+
+  /* Home Page - Hero Section */
+  .hero-section {
+    height: 250px;
+    /* Shorter banner on smaller screens */
+  }
+
+  .hero-overlay-text h1 {
+    font-size: 2.2em;
+    /* Smaller heading */
+  }
+
+  .hero-overlay-text p {
+    font-size: 1em;
+    /* Smaller paragraph */
+  }
+
+  .hero-btn {
+    padding: 10px 20px;
+    /* Smaller button */
+    font-size: 1em;
+  }
+
+  /* Image Gallery */
+  .image-gallery {
+    grid-template-columns: 1fr;
+    /* Stack images in a single column */
+  }
+
+  .image-gallery img {
+    height: 180px;
+    /* Adjust height for stacked images */
+  }
+
+  /* Admissions Table */
+  /* .admissions-table, .course-details-table {
+    display: block; /* Make table block level */
+  /* overflow-x: auto; Enable horizontal scroll for table on small screens */
+  /* white-space: nowrap; Prevent content from wrapping inside cells */
+  /* -webkit-overflow-scrolling: touch; For smooth scrolling on iOS */
+  /* } */
+  */ .admissions-table thead,
+  .admissions-table tbody,
+  .admissions-table th,
+  .admissions-table td,
+  .admissions-table tr {
+    display: block;
+    /* Make table elements stack */
+    width: auto;
+    /* Allow natural width */
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  /* Further adjustments for very small screens (phones) */
+  .page-container {
+    padding: 10px;
+  }
+
+  .hero-overlay-text h1 {
+    font-size: 1.8em;
+  }
+
+  .hero-overlay-text p {
+    font-size: 0.9em;
+  }
 }

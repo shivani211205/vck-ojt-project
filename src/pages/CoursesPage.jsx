@@ -11,12 +11,17 @@ return(
                 <center><h1 className="heading">Our Academic Programs</h1></center>
                 <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.</p>
                 
-                <h2><strong>Discover Campus Life</strong></h2>
-                <video id="video" controls>
-                    <source src="/videos/vck.mp4"/>
-                </video>
+                <h2>Discover Campus Life</h2>
+                <div className="v1">
+                    <video id="video" controls>
+                        <source src="/videos/vck.mp4"/>
+                    </video>
+                    <p className="vck"><i>Get a glimpse of the vibrant academic and social life at Vivekanand College.</i></p>
+                </div>
+                
+                
 
-                <h2><strong>Undergraduate Programs (UG)</strong></h2>
+                <h2>Undergraduate Programs (UG)</h2>
                 <ul>
                     <li><strong>Bachelor of Science (B.Sc.)</strong></li>
                     <ul>
@@ -42,7 +47,7 @@ return(
                     </ul>
 
                 </ul>
-                <h2><strong>Postgraduate Programs (PG)</strong></h2>
+                <h2>Postgraduate Programs (PG)</h2>
                 <ul>
                     <li><strong>Master of Science (M.Sc.)</strong></li>
                     <ul>
@@ -59,7 +64,7 @@ return(
 
                 </ul>
         
-                <h2><strong>Program Details & Fee Structure (Annual)</strong></h2>
+                <h2>Program Details & Fee Structure (Annual)</h2>
                 <table>
                     <tr>
                         <th>Program Type</th>
@@ -93,7 +98,7 @@ return(
 
                 </table>
 
-                <h2><strong>Specialized & Vocational Courses</strong></h2>
+                <h2>Specialized & Vocational Courses</h2>
                 <p>In addition to traditional degree programs, we offer various certificate and diploma courses in areas like Digital Marketing, Web Development, Data Analytics, and Soft Skills Development, providing specialized training for career enhancement.</p>
                 <p><center>Explore detailed syllabi and admission criteria on our Admissions page.</center></p>
                 <center><p>Have questions about a specific course?</p></center>

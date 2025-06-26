@@ -7,10 +7,10 @@ const ContactPage = () => {
 return(
     <div>
         <Header/>
-        <div className="main">
-            <div id="main-layout">
+        <div className="main2">
+            <div id="main-layout1">
                 <center><h1 className="heading">Contact Us</h1></center>
-                <p>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>
+                <p>We ' d  love  to  hear  from   you !  Whether  you  have  questions  about  admissions  ,  programs  , or  campus  life  ,  our   team  is  here  to  help .</p>
                 <h2><strong>General Enquiries</strong></h2>
                 <p><b>Vivekanand College Main Campus</b></p>
                 <p>[Your College Full Address Here, e.g., Mahatma Gandhi Road, Chembur, Mumbai, Maharashtra 400071]</p>
@@ -29,10 +29,10 @@ return(
                 <p>Phone: +91 87654 32109</p>
                 <p>Email: studentsupport@vivekanandcollege.edu</p>
 
-                <h2><b>Find Us on the Map</b></h2>
+                <h2>Find Us on the Map</h2>
                 <p>[You can embed a Google Map here later using an iframe or a React map library.]</p>
                 <a href="https://www.google.com/maps/search/Vivekanand+College/@16.695294,74.235904,14z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D">View On Google Page</a> 
-                <h2><strong>Send Us a Message</strong></h2>
+                <h2>Send Us a Message</h2>
                 <p>[A contact form with fields for Name, Email, Subject, Message can be added here.]</p>   
 
             </div>
