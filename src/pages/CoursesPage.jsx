@@ -103,7 +103,7 @@ return(
                 <p>In addition to traditional degree programs, we offer various certificate and diploma courses in areas like Digital Marketing, Web Development, Data Analytics, and Soft Skills Development, providing specialized training for career enhancement.</p>
                 <p><center>Explore detailed syllabi and admission criteria on our Admissions page.</center></p>
                 <center><p>Have questions about a specific course?</p></center>
-                <Link to="/contact">Inquire About Courses</Link>
+                <Link to="/contact"><center><button id="c1">Inquire About Courses</button></center></Link>
                 
 
             </div>

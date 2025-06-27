@@ -1,6 +1,7 @@
 
 import { Link } from "react-router-dom";
 import Header from "../components/Header/Header";
+import "../styles/Pages.css"
 
 const HomePage = () => {
 
@@ -14,7 +15,7 @@ return(
                     <div className="demo5">
                         <h1>Welcome to Vivekanand <br />  College!</h1>
                         <p id="p1">Your journey to excellence starts here.</p>
-                        <Link to="/admissions">Apply Now!</Link>
+                        <Link to="/admissions"><button id="c2">Apply Now!</button></Link>
                     </div>
 
                 </div>  
@@ -38,7 +39,7 @@ return(
                 <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
                 <div>
                     <center><p id="p2">Ready to explore our courses?</p></center>
-                    <Link to="/courses">Explore Courses</Link>
+                    <Link to="/courses"><center><button id="c1">Explore Courses</button></center></Link>
                 </div>
                 
                 
