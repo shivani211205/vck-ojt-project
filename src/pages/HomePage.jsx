@@ -1,3 +1,4 @@
+
 import Header from "../components/Header/Header";
 
 const HomePage = () => {
@@ -12,7 +13,7 @@ return(
                     <div className="demo5">
                         <h1>Welcome to Vivekanand <br />  College!</h1>
                         <p id="p1">Your journey to excellence starts here.</p>
-                        <a href="/admissions" id="add">Apply Now!</a>
+                        <Link to="/admissions" id="add"><button>Apply Now!</button></Link>
                     </div>
 
                 </div>  
@@ -36,7 +37,7 @@ return(
                 <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
                 <div>
                     <center><p id="p2">Ready to explore our courses?</p></center>
-                    <center><a href="/courses" id="a1">Explore Courses</a></center>
+                    <Link to="/courses" id="add">Explore Courses</Link>
                 </div>
                 
                 
