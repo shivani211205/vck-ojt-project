@@ -38,7 +38,7 @@ return(
                 <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
                 <div>
                     <center><p id="p2">Ready to explore our courses?</p></center>
-                    <Link to="/courses" id="add">Explore Courses</Link>
+                    <Link to="/courses">Explore Courses</Link>
                 </div>
                 
                 
