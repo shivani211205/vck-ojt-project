@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 import Header from "../components/Header/Header";
 
 const HomePage = () => {
@@ -13,7 +14,7 @@ return(
                     <div className="demo5">
                         <h1>Welcome to Vivekanand <br />  College!</h1>
                         <p id="p1">Your journey to excellence starts here.</p>
-                        <Link to="/admissions" id="add"><button>Apply Now!</button></Link>
+                        <Link to="/admissions">Apply Now!</Link>
                     </div>
 
                 </div>  
